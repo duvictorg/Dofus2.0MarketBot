@@ -5,17 +5,6 @@ import random
 from skimage.metrics import structural_similarity as ssim
 import clipboard
 
-'''
-keyboard.wait('w')
-mouse_events = []
-mouse.hook(mouse_events.append)
-
-keyboard.wait('w')
-
-mouse.unhook(mouse_events.append)
-
-print(mouse_events)
-'''
 
 
 import cv2
